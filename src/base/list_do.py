@@ -15,6 +15,36 @@ for i in range(len(l)-1,-1,-1):
 for i in l[::-1]:
     print(i)
     
-N=len(l)
-#l[N]=3
+print(1 in l)
+
+mylist=[0]*3
+print(mylist)
+
+mylist=[[0]*10 for i in range(10)]
+print(mylist)
+
+mylist=[1,5,1,6,8,5]
+print(mylist.count(1))
+print(mylist.count(5))
     
+print(list(range(9)))
+
+mylist=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+
+print(mylist[1][2])
+print('-'*15)
+for i in range(3):
+    for j in range(3):
+        print(mylist[j][i],end=" ")
+print('\n'+'-'*15)
+test = [[0 for i in range(3)] for j in range(4)]
+print(test)
+
+for i in range(0,9,3):
+    for j in range(0,9,3):
+        print(i,j)
+    print('-------------------')
