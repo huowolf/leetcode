@@ -1,3 +1,4 @@
+#给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。
 class Solution:
     def isPalindrome(self, s):
         """
@@ -28,8 +29,9 @@ s="A man, a plan, a canal: Panama"
 r=Solution().isPalindrome(s)
 print(r)
 assert r==True
+
 s="race a car"
 r=Solution().isPalindrome(s)
 assert r==False
 print(r)
-       
+
