@@ -7,3 +7,8 @@ print(str(x)+'1111')
 x=-123
 s=str(x)[1:]
 print(s)
+
+s="1,a"
+for i in s:
+    print(i.isalnum())
+    
