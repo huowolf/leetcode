@@ -12,3 +12,11 @@ s="1,a"
 for i in s:
     print(i.isalnum())
     
+s='w'
+print(s>'9')
+s='a'
+print(s<'1')
+
+str="  aa"
+for i in str:
+    print(i== " ")
